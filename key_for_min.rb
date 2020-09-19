@@ -20,10 +20,11 @@ def key_for_min_value(name_hash)
   if name_hash == {}
     return nil
   else
-   name_hash.each do |n, x|
-    if value > x
+    name_hash.each do |n, x|
+      if value > x
       value = x
       key = n
+    end
     end
   end
   return key
