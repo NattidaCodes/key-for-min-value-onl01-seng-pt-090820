@@ -3,10 +3,14 @@
 
 def key_for_min_value(name_hash)
   value = 1000
+  key = " "
   name_hash.each do |n, x|
     if value > x
-      return n
+      value = x
+      key = n
+
+      end
     end
   end
-  return nil
+  return key
 end
