@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     if value > x
       value = x
       key = n
+      key
     end
   end
-  return key
   return nil
 end
